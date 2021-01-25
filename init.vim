@@ -6,10 +6,7 @@ Plug 'joshdick/onedark.vim'
 " language
 Plug 'google/vim-maktaba'
 Plug 'jparise/vim-graphql'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'neoclide/coc-json', {'do': 'yarn install --frozen-lockfile'}
-Plug 'neoclide/coc-python', {'do': 'yarn install --frozen-lockfile'}
-Plug 'neoclide/coc-yaml', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'} " plugins used coc-json, coc-python, coc-yaml
 Plug 'sheerun/vim-polyglot' " syntax highlighting
 
 " build
