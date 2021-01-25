@@ -76,7 +76,7 @@ map <c-p> :Files<CR>
 
 let g:loaded_clipboard_provider = 1 " https://github.com/neovim/neovim/issues/11033
 
-" Trigger a highlight in the appropriate direction when pressing these keys:                                                                        [117/1810]
+" Trigger a highlight in the appropriate direction when pressing these keys:
 let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
 
 " Lightline
