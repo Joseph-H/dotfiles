@@ -1,0 +1,5 @@
+Host vdi
+	Hostname 0.0.0….
+	ForwardAgent yes
+	ForwardX11 yes
+	LocalForward 6708 0.0.0.0:6708
