@@ -93,7 +93,7 @@
   "python.linting.pylintEnabled": false,
   "python.linting.flake8Args": [
     "--max-line-length=120",
-    // "--ignore=E402", can do this too
+    "--ignore=E402"
   ],
   "python.formatting.blackPath": "path/to/black",
   "python.formatting.provider": "black",
