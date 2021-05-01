@@ -6,7 +6,7 @@ Plug 'joshdick/onedark.vim'
 " language
 Plug 'google/vim-maktaba'
 Plug 'jparise/vim-graphql'
-Plug 'neoclide/coc.nvim', {'branch': 'release'} " plugins used coc-json, coc-python, coc-yaml
+Plug 'neoclide/coc.nvim', {'branch': 'release'} " CoC plugins used: coc-json, coc-yaml, coc-python
 Plug 'sheerun/vim-polyglot' " syntax highlighting
 
 " build

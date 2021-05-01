@@ -1,0 +1,105 @@
+{
+  "go.gopath": "/Users/jhenriquez/gocode",
+  "go.formatTool": "goreturns",
+  "editor.tabSize": 2,
+  "editor.formatOnType": true,
+  "editor.scrollBeyondLastLine": false,
+  "window.openFilesInNewWindow": "off",
+  "workbench.editor.enablePreview": false,
+  "files.exclude": {
+    "**/.tmp": true,
+    "vendor": true,
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "go-build/.go": true,
+    "**/*.test": true,
+    "Godeps/_workspace": true,
+    "**/coverage.html": true,
+    "**/_build": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.autoSave": "onFocusChange",
+  "window.zoomLevel": 0.5,
+  "cSpell.userWords": [],
+  "vim.leader": "<space>",
+  "vim.incsearch": true,
+  "vim.smartRelativeLine": true,
+  "vim.handleKeys": {
+    "<C-p>": true
+  },
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "l"],
+      "after": ["<C-w>", "l"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "after": ["<C-w>", "h"]
+    },
+    {
+      "before": ["<leader>", "k"],
+      "after": ["<C-w>", "k"]
+    },
+    {
+      "before": ["<leader>", "j"],
+      "after": ["<C-w>", "j"]
+    },
+    {
+      "before": ["<leader>", "b"],
+      "commands": [
+        {"command": "workbench.action.toggleSidebarVisibility", "args": []}
+      ]
+    },
+    {
+      "before": ["<leader>", "i"],
+      "commands": [
+        {"command": "editor.action.showHover", "args": []}
+      ]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": [
+        {"command": "workbench.view.search", "args": []}
+      ]
+    },
+    {
+      "before": ["<leader>", "m"],
+      "commands": [
+          "bookmarks.toggle"
+      ]
+    },
+    {
+      "before": ["<leader>", "n"],
+      "commands": [
+        "bookmarks.listFromAllFiles"
+      ]
+    }
+  ],
+  "workbench.startupEditor": "none",
+  "workbench.productIconTheme": "icons-carbon",
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "editor.fontSize": 12.8,
+  "python.languageServer": "Microsoft",
+  "java.home": "path/to/java",
+  "python.linting.enabled": true,
+  "python.linting.flake8Path": "path/to/flake8",
+  "python.linting.flake8Enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Args": [
+    "--max-line-length=120",
+    // "--ignore=E402", can do this too
+  ],
+  "python.formatting.blackPath": "path/to/black",
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": false,
+  "[python]": {
+    "editor.formatOnSave": true
+  },
+  "editor.renderWhitespace": "all"
+}
